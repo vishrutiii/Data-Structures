@@ -1,7 +1,7 @@
 # Data-Structures
- Data structures lectures for computer science students.
+Data structures lectures for computer science students.
  
-## Linear Data Structures
+## Part 1: Linear Data Structures
 
 ### Lecture 01 - Complexity Analysis & Recursion
 ### Lecture 02 - Arrays
@@ -11,7 +11,7 @@
 ### Lecture 06 - Deque
 ### Lecture 07 - STLs in C++ (Linear Data Structures)
 
-## Non-Linear Data Structures
+## Part 2: Non-Linear Data Structures
  
 ### Lecture 08 - Binary Tree
 ### Lecture 09 - Binary Search Tree
