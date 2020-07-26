@@ -4,7 +4,7 @@ Data structures lectures for computer science students.
 ## Part 1: Linear Data Structures
 
 ### Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
-### Lecture 02 - [Arrays](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Arrays)
+### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array)
 ### Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List)
 ### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack)
 ### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue)
@@ -17,6 +17,6 @@ Data structures lectures for computer science students.
 ### Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
 ### Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree)
 ### Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree)
-### Lecture 12 - [Hash Tables](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Tables)
-### Lecture 13 - [Graphs](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graphs)
+### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table)
+### Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
 ### Lecture 14 - [STLs in C++ (Non-Linear Data Structures)](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20STL%20in%20C%2B%2B%20(Non-Linear%20Data%20Structures))
