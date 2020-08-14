@@ -1,7 +1,7 @@
 # Data-Structures
 Data structures lectures for computer science students.
  
-## Part 1: Linear Data Structures `[25 H]`
+## Part 1: Linear Data Structures `[25H]`
 
 ### Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
 ### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array) (Static Length), (Dynamic Length)
@@ -11,7 +11,7 @@ Data structures lectures for computer science students.
 ### Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque) (Array Based), (Linked List Based)
 ### Lecture 07 - [STLs in C++ (Linear Data Structures)](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20STL%20in%20C%2B%2B%20(Linear%20Data%20Structures))
 
-## Part 2: Non-Linear Data Structures `[25 H]`
+## Part 2: Non-Linear Data Structures `[25H]`
  
 ### Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
 ### Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
