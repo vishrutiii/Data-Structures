@@ -7,9 +7,13 @@ int n;
 vector<int> adj[N];
 
 // This function adds edges between given vertices (undirected edge)
-void add_edge(int u, int v) {
+void add_undirected_edge(int u, int v) {
     adj[u].push_back(v);
     adj[v].push_back(u);
+}
+// This function adds edges between given vertices (directed edge)
+void add_directed_edge(int u, int v) {
+    adj[u].push_back(v);
 }
 
 // Initialize an array to mark visited vertices
@@ -90,17 +94,82 @@ void dfs() {
 			dfs_util(i);
 }
 
+int vis_cycle[N];
+int parent[N];
+int cycle_start, cycle_end;
+
+bool dfs_cycle(int u, int p) {
+    vis_cycle[u] = 1;
+    for (int v : adj[u]) {
+        if (v == p) 
+            continue;
+        if (vis_cycle[v] == 0) {
+            parent[v] = u;
+            if (dfs_cycle(v, parent[v]))
+                return true;
+        } 
+        else if (vis_cycle[v] == 1) {
+            cycle_end = u;
+            cycle_start = v;
+            return true;
+        }
+    }
+    vis_cycle[u] = 2;
+    return false;
+}
+
+void find_cycle() {
+	memset(parent, -1, sizeof parent);
+    cycle_start = -1;
+    for (int v = 0; v < n; v++) {
+        if (vis_cycle[v] == 0 && dfs_cycle(v, parent[v]))
+            break;
+    }
+    if (cycle_start == -1) {
+        cout << "Acyclic Graph";
+        return;
+    } 
+    vector<int> cycle;
+    cycle.push_back(cycle_start);
+    for (int v = cycle_end; v != cycle_start; v = parent[v])
+        cycle.push_back(v);
+    cycle.push_back(cycle_start);
+    reverse(cycle.begin(), cycle.end());
+    cout << "Cycle found: ";
+    for (int v : cycle)
+        cout << v << " ";
+}
+
+bool vis_connected[N];
+
+void dfs_connected(int u) {
+    vis_connected[u] = true;
+    for (int v : adj[u]) {
+        if (vis_connected[v] == false)
+            dfs_connected(v);
+    }
+}
+
+bool is_connected() {
+    dfs_connected(1);
+    for (int i = 1 ; i <= n ; i++) {
+        if (vis_connected[i] == false)
+			return false;
+	}
+	return true;
+}
+
 int main() {
 
 	// Testing operators functionality
 
     n = 5;
-    add_edge(1, 2);
-    add_edge(1, 3);
-    add_edge(2, 4);
-    add_edge(5, 3);
-    add_edge(2, 3);
-    add_edge(1, 5);
+    add_undirected_edge(1, 2);
+    add_undirected_edge(1, 3);
+    add_undirected_edge(2, 4);
+    add_undirected_edge(5, 3);
+    add_undirected_edge(2, 3);
+    add_undirected_edge(1, 5);
     
     cout << "Graph representation in bfs : \n";
     bfs(1);
@@ -124,5 +193,16 @@ int main() {
 	----------------------------------------------------
 	*/
 
-}
+	cout << (is_connected()? "Connected Graph" : "Disconnected Graph");
+    cout << "\n----------------------------------------------------\n";
+    find_cycle();
+    cout << "\n----------------------------------------------------\n";
+	
+	/* Expected Output:
+    Connected Graph
+	----------------------------------------------------
+    Cycle found: 1 2 3 1
+	----------------------------------------------------
+	*/
 
+}
