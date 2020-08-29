@@ -20,3 +20,12 @@ Data structures lectures for computer science students.
 ### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table) (Static Length), (Dynamic Length)
 ### Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
 ### Lecture 14 - [STLs in C++ (Non-Linear Data Structures)](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20STL%20in%20C%2B%2B%20(Non-Linear%20Data%20Structures))
+
+## Part 3: Advanced Data Structures `[25H]`
+
+### Lecture 15 - [Disjoint Set]()
+### Lecture 16 - [Trie]()
+### Lecture 17 - [Segment Tree]()
+### Lecture 18 - [Binary Indexed Tree (Fenwick Tree)]()
+### Lecture 19 - [Treap(Randomized Binary Search Tree)]()
+### Lecture 20 - [K-Dimensional Tree]()
