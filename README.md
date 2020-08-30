@@ -9,7 +9,7 @@ Data structures lectures for computer science students.
 ### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack) (Array Based), (Linked List Based)
 ### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue) (Array Based), (Linked List Based)
 ### Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque) (Array Based), (Linked List Based)
-### Lecture 07 - [STLs in C++ (Linear Data Structures)](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20STL%20in%20C%2B%2B%20(Linear%20Data%20Structures))
+### Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20Built-in%20Linear%20Data%20Structures)
 
 ## Part 2: Non-Linear Data Structures `[25H]`
  
@@ -19,13 +19,13 @@ Data structures lectures for computer science students.
 ### Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree) (Array Based), (Tree Based)
 ### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table) (Static Length), (Dynamic Length)
 ### Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
-### Lecture 14 - [STLs in C++ (Non-Linear Data Structures)](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20STL%20in%20C%2B%2B%20(Non-Linear%20Data%20Structures))
+### Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
 
 ## Part 3: Advanced Data Structures `[25H]`
 
-### Lecture 15 - [Disjoint Set]()
-### Lecture 16 - [Trie]()
-### Lecture 17 - [Segment Tree]()
-### Lecture 18 - [Binary Indexed Tree]() (Fenwick Tree)
-### Lecture 19 - [Treap]() (Randomized Binary Search Tree)
-### Lecture 20 - [K-Dimensional Tree]()
+### Lecture 15 - [Disjoint Set](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2015%20-%20Disjoint%20Set)
+### Lecture 16 - [Trie](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2016%20-%20Trie)
+### Lecture 17 - [Segment Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2017%20-%20Segment%20Tree)
+### Lecture 18 - [Binary Indexed Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2018%20-%20Binary%20Indexed%20Tree) (Fenwick Tree)
+### Lecture 19 - [Treap](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2019%20-%20Treap) (Randomized Binary Search Tree)
+### Lecture 20 - [K-Dimensional Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2020%20-%20K-Dimensional%20Tree)
