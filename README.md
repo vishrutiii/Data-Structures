@@ -26,6 +26,6 @@ Data structures lectures for computer science students.
 ### Lecture 15 - [Disjoint Set]()
 ### Lecture 16 - [Trie]()
 ### Lecture 17 - [Segment Tree]()
-### Lecture 18 - [Binary Indexed Tree (Fenwick Tree)]()
-### Lecture 19 - [Treap (Randomized Binary Search Tree)]()
+### Lecture 18 - [Binary Indexed Tree]() (Fenwick Tree)
+### Lecture 19 - [Treap]() (Randomized Binary Search Tree)
 ### Lecture 20 - [K-Dimensional Tree]()
