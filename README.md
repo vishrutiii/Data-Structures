@@ -6,6 +6,7 @@ Data structures lectures for computer science students.
 ### Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
 <details>
 <summary>Complexity Analysis & Recursion</summary>
+<br>
 <ul>
   <li>Introduction to Data Structures</li>
   <li>Execution Time Cases</li>
@@ -18,6 +19,7 @@ Data structures lectures for computer science students.
 ### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array)
 <details>
 <summary>Array (Static Length)</summary>
+<br>
 <ul>
   <li>Introduction to Arrays</li>
   <li>Insertion Operation</li>
@@ -30,6 +32,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Array (Dynamic Length)</summary>
+<br>
 <ul>
   <li>Introduction to Arrays</li>
   <li>Insertion Operation</li>
@@ -43,6 +46,7 @@ Data structures lectures for computer science students.
 ### Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List)
 <details>
 <summary>Single Linked List</summary>
+<br>
 <ul>
   <li>Introduction to Linked Lists</li>
   <li>Insertion Operation</li>
@@ -55,6 +59,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Doubly Linked List </summary>
+<br>
 <ul>
   <li>Introduction to Linked Lists</li>
   <li>Insertion Operation</li>
@@ -68,6 +73,7 @@ Data structures lectures for computer science students.
 ### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack)
 <details>
 <summary>Stack (Linked List Based)</summary>
+<br>
 <ul>
   <li>Introduction to Stack</li>
   <li>Insertion Operation</li>
@@ -79,6 +85,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Stack (Array Based)</summary>
+<br>
 <ul>
   <li>Introduction to Stack</li>
   <li>Insertion Operation</li>
@@ -91,6 +98,7 @@ Data structures lectures for computer science students.
 ### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue)
 <details>
 <summary>Queue (Linked List Based)</summary>
+<br>
 <ul>
   <li>Introduction to Queue</li>
   <li>Insertion Operation</li>
@@ -102,6 +110,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Queue (Array Based)</summary>
+<br>
 <ul>
   <li>Introduction to Queue</li>
   <li>Insertion Operation</li>
@@ -114,6 +123,7 @@ Data structures lectures for computer science students.
 ### Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque)
 <details>
 <summary>Deque (Linked List Based)</summary>
+<br>
 <ul>
   <li>Introduction to Deque</li>
   <li>Insertion Operation</li>
@@ -126,6 +136,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Deque (Array Based)</summary>
+<br>
 <ul>
   <li>Introduction to Deque</li>
   <li>Insertion Operation</li>
@@ -139,6 +150,7 @@ Data structures lectures for computer science students.
 ### Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20Built-in%20Linear%20Data%20Structures)
 <details>
 <summary>Linear Data Structures in Programming Languages</summary>
+<br>
 <ul>
   <li>Vector</li>
   <li>List</li>
@@ -153,6 +165,7 @@ Data structures lectures for computer science students.
 ### Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
 <details>
 <summary>Binary Tree</summary>
+<br>
 <ul>
   <li>Introduction to Binary Tree</li>
   <li>Traverse Operation</li>
@@ -166,6 +179,7 @@ Data structures lectures for computer science students.
 ### Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
 <details>
 <summary>Binary Search Tree</summary>
+<br>
 <ul>
   <li>Introduction to Binary Search Tree</li>
   <li>Insertion Operation</li>
@@ -180,6 +194,7 @@ Data structures lectures for computer science students.
 ### Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree)
 <details>
 <summary>Self Balancing Binary Search Tree (AVL Tree)</summary>
+<br>
 <ul>
   <li>Introduction to AVL Tree</li>
   <li>Rotation Operation</li>
@@ -193,6 +208,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Self Balancing Binary Search Tree (Red Black Tree)</summary>
+<br>
 <ul>
   <li>Introduction to Red Black Tree</li>
   <li>Rotation Operation</li>
@@ -207,6 +223,7 @@ Data structures lectures for computer science students.
 ### Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree)
 <details>
 <summary>Heap Tree (Array Based)</summary>
+<br>
 <ul>
   <li>Introduction to Binary Heap Tree</li>
   <li>Insertion Operation</li>
@@ -218,6 +235,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Heap Tree (Tree Based)</summary>
+<br>
 <ul>
   <li>Introduction to Binary Heap Tree</li>
   <li>Insertion Operation</li>
@@ -230,6 +248,7 @@ Data structures lectures for computer science students.
 ### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table)
 <details>
 <summary>Hash Table (Static Length)</summary>
+<br>
 <ul>
   <li>Introduction to Hash Tables</li>
   <li>Collision Resolution</li>
@@ -242,6 +261,7 @@ Data structures lectures for computer science students.
 
 <details>
 <summary>Hash Table (Dynamic Length)</summary>
+<br>
 <ul>
   <li>Introduction to Rehashing</li>
   <li>Rehashing Separate Chaining</li>
@@ -252,7 +272,8 @@ Data structures lectures for computer science students.
 
 ### Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
 <details>
-<summary>abcd</summary>
+<summary>Graph</summary>
+<br>
 <ul>
   <li>Introduction to Graphs</li>
   <li>Directed vs. Undirected Graph</li>
@@ -267,6 +288,7 @@ Data structures lectures for computer science students.
 ### Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
 <details>
 <summary>Built-in Non-Linear Data Structures</summary>
+<br>
 <ul>
   <li>Non-Linear Data Structures in Programming Languages</li>
   <li>Set</li>
