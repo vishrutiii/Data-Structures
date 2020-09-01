@@ -3,186 +3,279 @@ Data structures lectures for computer science students.
  
 ## Part 1: Linear Data Structures `[25H]`
 
-### :pushpin: Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
-- Introduction to Data Structures
-- Execution Time Cases
-- Complexity Analysis Examples
-- Recursion
-- Iteration vs. Recursion Examples
+### Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
+<details>
+<summary>Complexity Analysis & Recursion</summary>
+<ul>
+  <li>Introduction to Data Structures</li>
+  <li>Execution Time Cases</li>
+  <li>Complexity Analysis Examples</li>
+  <li>Recursion</li>
+  <li>Iteration vs. Recursion Examples</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array)
-### Array (Static Length)
-- Introduction to Arrays
-- Insertion Operation
-- Deletion Operation
-- Search Operation
-- Traverse Operation
-- Time Complexity & Space Complexity
+### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array)
+<details>
+<summary>Array (Static Length)</summary>
+<ul>
+  <li>Introduction to Arrays</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Search Operation</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Array (Dynamic Length)
-- Introduction to Arrays
-- Insertion Operation
-- Deletion Operation
-- Search Operation
-- Traverse Operation
-- Time Complexity & Space Complexity
+<details>
+<summary>Array (Dynamic Length)</summary>
+<ul>
+  <li>Introduction to Arrays</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Search Operation</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List)
-### Single Linked List 
-- Introduction to Linked Lists
-- Insertion Operation
-- Deletion Operation
-- Search Operation
-- Traverse Operation
-- Time Complexity & Space Complexity
+### Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List)
+<details>
+<summary>Single Linked List</summary>
+<ul>
+  <li>Introduction to Linked Lists</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Search Operation</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Doubly Linked List 
-- Introduction to Linked Lists
-- Insertion Operation
-- Deletion Operation
-- Search Operation
-- Traverse Operation
-- Time Complexity & Space Complexity
+<details>
+<summary>Doubly Linked List </summary>
+<ul>
+  <li>Introduction to Linked Lists</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Search Operation</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack)
-### Stack (Linked List Based)
-- Introduction to Stack
-- Insertion Operation
-- Deletion Operation
-- Top Operation
-- Time Complexity & Space Complexity
+### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack)
+<details>
+<summary>Stack (Linked List Based)</summary>
+<ul>
+  <li>Introduction to Stack</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Top Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Stack (Array Based)
-- Introduction to Stack
-- Insertion Operation
-- Deletion Operation
-- Top Operation
-- Time Complexity & Space Complexity
+<details>
+<summary>Stack (Array Based)</summary>
+<ul>
+  <li>Introduction to Stack</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Top Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue)
-### Queue (Linked List Based)
-- Introduction to Queue
-- Insertion Operation
-- Deletion Operation
-- Front & Back Operations
-- Time Complexity & Space Complexity
+### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue)
+<details>
+<summary>Queue (Linked List Based)</summary>
+<ul>
+  <li>Introduction to Queue</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Front & Back Operations</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Queue (Array Based)
-- Introduction to Queue
-- Insertion Operation
-- Deletion Operation
-- Front & Back Operations
-- Time Complexity & Space Complexity
+<details>
+<summary>Queue (Array Based)</summary>
+<ul>
+  <li>Introduction to Queue</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Front & Back Operations</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque)
-### Deque (Linked List Based)
-- Introduction to Deque
-- Insertion Operation
-- Deletion Operation
-- Front & Back Operations
-- Traverse Operation
-- Time Complexity & Space Complexity
+### Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque)
+<details>
+<summary>Deque (Linked List Based)</summary>
+<ul>
+  <li>Introduction to Deque</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Front & Back Operations</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Deque (Array Based)
-- Introduction to Deque
-- Insertion Operation
-- Deletion Operation
-- Front & Back Operations
-- Traverse Operation
-- Time Complexity & Space Complexity
+<details>
+<summary>Deque (Array Based)</summary>
+<ul>
+  <li>Introduction to Deque</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Front & Back Operations</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20Built-in%20Linear%20Data%20Structures)
-- Linear Data Structures in Programming Languages
-- Vector
-- List
-- Stack
-- Queue
-- Deque
+### Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20Built-in%20Linear%20Data%20Structures)
+<details>
+<summary>Linear Data Structures in Programming Languages</summary>
+<ul>
+  <li>Vector</li>
+  <li>List</li>
+  <li>Stack</li>
+  <li>Queue</li>
+  <li>Deque</li>
+</ul>
+</details>
 
 ## Part 2: Non-Linear Data Structures `[25H]`
 
-### :pushpin: Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
-- Introduction to Binary Tree
-- Traverse Operation
-- BFS vs. DFS for Binary Tree
-- Search Operation
-- Deletion Operation
-- Time Complexity & Space Complexity
+### Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
+<details>
+<summary>Binary Tree</summary>
+<ul>
+  <li>Introduction to Binary Tree</li>
+  <li>Traverse Operation</li>
+  <li>BFS vs. DFS for Binary Tree</li>
+  <li>Search Operation</li>
+  <li>Deletion Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
-- Introduction to Binary Search Tree
-- Insertion Operation
-- Deletion Operation
-- Search Operation
-- Traverse Operation
-- Time Complexity & Space Complexity
-- Balanced Binary Tree Property
+### Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
+<details>
+<summary>Binary Search Tree</summary>
+<ul>
+  <li>Introduction to Binary Search Tree</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Search Operation</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+  <li>Balanced Binary Tree Property</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree)
-### Self Balancing Binary Search Tree (AVL Tree)
-- Introduction to AVL Tree
-- Rotation Operation
-- Insertion Operation
-- Deletion Operation
-- Search Operation
-- Traverse Operation
-- Time Complexity & Space Complexity
+### Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree)
+<details>
+<summary>Self Balancing Binary Search Tree (AVL Tree)</summary>
+<ul>
+  <li>Introduction to AVL Tree</li>
+  <li>Rotation Operation</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Search Operation</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Self Balancing Binary Search Tree (Red Black Tree)
-- Introduction to Red Black Tree
-- Rotation Operation
-- Insertion Operation
-- Deletion Operation
-- Search Operation
-- Traverse Operation
-- Time Complexity & Space Complexity
+<details>
+<summary>Self Balancing Binary Search Tree (Red Black Tree)</summary>
+<ul>
+  <li>Introduction to Red Black Tree</li>
+  <li>Rotation Operation</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Search Operation</li>
+  <li>Traverse Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree)
-### Heap Tree (Array Based)
-- Introduction to Binary Heap Tree
-- Insertion Operation
-- Deletion Operation
-- Top Operation
-- Time Complexity & Space Complexity
+### Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree)
+<details>
+<summary>Heap Tree (Array Based)</summary>
+<ul>
+  <li>Introduction to Binary Heap Tree</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Top Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Heap Tree (Tree Based)
-- Introduction to Binary Heap Tree
-- Insertion Operation
-- Deletion Operation
-- Top Operation
-- Time Complexity & Space Complexity
+<details>
+<summary>Heap Tree (Tree Based)</summary>
+<ul>
+  <li>Introduction to Binary Heap Tree</li>
+  <li>Insertion Operation</li>
+  <li>Deletion Operation</li>
+  <li>Top Operation</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table)
-### Hash Table (Static Length)
-- Introduction to Hash Tables
-- Collision Resolution
-- Separate Chaining
-- Open Addressing
-- Double Hashing
-- Time Complexity & Space Complexity
+### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table)
+<details>
+<summary>Hash Table (Static Length)</summary>
+<ul>
+  <li>Introduction to Hash Tables</li>
+  <li>Collision Resolution</li>
+  <li>Separate Chaining</li>
+  <li>Open Addressing</li>
+  <li>Double Hashing</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### Hash Table (Dynamic Length)
-- Introduction to Rehashing
-- Rehashing Separate Chaining
-- Rehashing Double Hashing
-- Time Complexity & Space Complexity
+<details>
+<summary>Hash Table (Dynamic Length)</summary>
+<ul>
+  <li>Introduction to Rehashing</li>
+  <li>Rehashing Separate Chaining</li>
+  <li>Rehashing Double Hashing</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
-- Introduction to Graphs
-- Directed vs. Undirected Graph
-- Breadth First Traverse
-- Depth First Traverse
-- Cyclic vs. Acyclic Graph
-- Connected vs. Disconnected Graph
-- Time Complexity & Space Complexity
+### Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
+<details>
+<summary>abcd</summary>
+<ul>
+  <li>Introduction to Graphs</li>
+  <li>Directed vs. Undirected Graph</li>
+  <li>Breadth First Traverse</li>
+  <li>Depth First Traverse</li>
+  <li>Cyclic vs. Acyclic Graph</li>
+  <li>Connected vs. Disconnected Graph</li>
+  <li>Time Complexity & Space Complexity</li>
+</ul>
+</details>
 
-### :pushpin: Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
-- Non-Linear Data Structures in Programming Languages
-- Set
-- Multi-set
-- Map
-- Multi-map
-- Priority Queue
+### Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
+<details>
+<summary>Built-in Non-Linear Data Structures</summary>
+<ul>
+  <li>Non-Linear Data Structures in Programming Languages</li>
+  <li>Set</li>
+  <li>Multi-set</li>
+  <li>Map</li>
+  <li>Multi-map</li>
+  <li>Priority Queue</li>
+</ul>
+</details>
 
 ## Part 3: Advanced Data Structures `[25H]`
 
