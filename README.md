@@ -11,7 +11,7 @@ Data structures lectures for computer science students.
 - Iteration vs. Recursion Examples
 
 ### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array) (Static Length), (Dynamic Length)
-#### Arrays (Static Length)
+### Arrays (Static Length)
 - Introduction to Arrays
 - Insertion Operation
 - Deletion Operation
@@ -19,7 +19,7 @@ Data structures lectures for computer science students.
 - Traverse Operation
 - Time Complexity & Space Complexity
 
-#### Arrays (Dynamic Length)
+### Arrays (Dynamic Length)
 - Introduction to Arrays
 - Insertion Operation
 - Deletion Operation
