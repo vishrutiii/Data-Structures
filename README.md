@@ -10,7 +10,7 @@ Data structures lectures for computer science students.
 - Recursion
 - Iteration vs. Recursion Examples
 
-### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array) (Static Length), (Dynamic Length)
+### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array)
 ### Arrays (Static Length)
 - Introduction to Arrays
 - Insertion Operation
@@ -27,21 +27,162 @@ Data structures lectures for computer science students.
 - Traverse Operation
 - Time Complexity & Space Complexity
 
-### Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List) (Single Linked List), (Doubly Linked List)
-### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack) (Array Based), (Linked List Based)
-### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue) (Array Based), (Linked List Based)
-### Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque) (Array Based), (Linked List Based)
+### Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List)
+### Single Linked List 
+- Introduction to Linked Lists
+- Insertion Operation
+- Deletion Operation
+- Search Operation
+- Traverse Operation
+- Time Complexity & Space Complexity
+
+### Doubly Linked List 
+- Introduction to Linked Lists
+- Insertion Operation
+- Deletion Operation
+- Search Operation
+- Traverse Operation
+- Time Complexity & Space Complexity
+
+### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack)
+### Stack (Linked List Based)
+- Introduction to Stack
+- Insertion Operation
+- Deletion Operation
+- Top Operation
+- Time Complexity & Space Complexity
+
+### Stack (Array Based)
+- Introduction to Stack
+- Insertion Operation
+- Deletion Operation
+- Top Operation
+- Time Complexity & Space Complexity
+
+### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue)
+### Queue (Linked List Based)
+- Introduction to Queue
+- Insertion Operation
+- Deletion Operation
+- Front & Back Operations
+- Time Complexity & Space Complexity
+
+### Queue (Array Based)
+- Introduction to Queue
+- Insertion Operation
+- Deletion Operation
+- Front & Back Operations
+- Time Complexity & Space Complexity
+
+### Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque)
+### Deque (Linked List Based)
+- Introduction to Deque
+- Insertion Operation
+- Deletion Operation
+- Front & Back Operations
+- Traverse Operation
+- Time Complexity & Space Complexity
+
+### Deque (Array Based)
+- Introduction to Deque
+- Insertion Operation
+- Deletion Operation
+- Front & Back Operations
+- Traverse Operation
+- Time Complexity & Space Complexity
+
 ### Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20Built-in%20Linear%20Data%20Structures)
+- Linear Data Structures in Programming Languages
+- Vector
+- List
+- Stack
+- Queue
+- Deque
 
 ## Part 2: Non-Linear Data Structures `[25H]`
  
 ### Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
+- Introduction to Binary Tree
+- Traverse Operation
+- BFS vs. DFS for Binary Tree
+- Search Operation
+- Deletion Operation
+- Time Complexity & Space Complexity
+
 ### Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
-### Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree) (AVL Tree), (Red Black Tree)
-### Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree) (Array Based), (Tree Based)
-### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table) (Static Length), (Dynamic Length)
+- Introduction to Binary Search Tree
+- Insertion Operation
+- Deletion Operation
+- Search Operation
+- Traverse Operation
+- Time Complexity & Space Complexity
+- Balanced Binary Tree Property
+
+### Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree)
+### Self Balancing Binary Search Tree (AVL Tree)
+- Introduction to AVL Tree
+- Rotation Operation
+- Insertion Operation
+- Deletion Operation
+- Search Operation
+- Traverse Operation
+- Time Complexity & Space Complexity
+
+### Self Balancing Binary Search Tree (Red Black Tree)
+- Introduction to Red Black Tree
+- Rotation Operation
+- Insertion Operation
+- Deletion Operation
+- Search Operation
+- Traverse Operation
+- Time Complexity & Space Complexity
+
+### Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree)
+### Heap Tree (Array Based)
+- Introduction to Binary Heap Tree
+- Insertion Operation
+- Deletion Operation
+- Top Operation
+- Time Complexity & Space Complexity
+
+### Heap Tree (Tree Based)
+- Introduction to Binary Heap Tree
+- Insertion Operation
+- Deletion Operation
+- Top Operation
+- Time Complexity & Space Complexity
+
+### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table)
+### Hash Table (Static Length)
+- Introduction to Hash Tables
+- Collision Resolution
+- Separate Chaining
+- Open Addressing
+- Double Hashing
+- Time Complexity & Space Complexity
+
+### Hash Table (Dynamic Length)
+- Introduction to Rehashing
+- Rehashing Separate Chaining
+- Rehashing Double Hashing
+- Time Complexity & Space Complexity
+
 ### Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
+- Introduction to Graphs
+- Directed vs. Undirected Graph
+- Breadth First Traverse
+- Depth First Traverse
+- Cyclic vs. Acyclic Graph
+- Connected vs. Disconnected Graph
+- Time Complexity & Space Complexity
+
 ### Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
+- Non-Linear Data Structures in Programming Languages
+- Set
+- Multi-set
+- Map
+- Multi-map
+- Priority Queue
 
 ## Part 3: Advanced Data Structures `[25H]`
 
