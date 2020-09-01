@@ -3,14 +3,14 @@ Data structures lectures for computer science students.
  
 ## Part 1: Linear Data Structures `[25H]`
 
-### Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
+### :pushpin: Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
 - Introduction to Data Structures
 - Execution Time Cases
 - Complexity Analysis Examples
 - Recursion
 - Iteration vs. Recursion Examples
 
-### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array)
+### :pushpin: Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array)
 ### Array (Static Length)
 - Introduction to Arrays
 - Insertion Operation
@@ -27,7 +27,7 @@ Data structures lectures for computer science students.
 - Traverse Operation
 - Time Complexity & Space Complexity
 
-### Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List)
+### :pushpin: Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List)
 ### Single Linked List 
 - Introduction to Linked Lists
 - Insertion Operation
@@ -44,7 +44,7 @@ Data structures lectures for computer science students.
 - Traverse Operation
 - Time Complexity & Space Complexity
 
-### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack)
+### :pushpin: Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack)
 ### Stack (Linked List Based)
 - Introduction to Stack
 - Insertion Operation
@@ -59,7 +59,7 @@ Data structures lectures for computer science students.
 - Top Operation
 - Time Complexity & Space Complexity
 
-### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue)
+### :pushpin: Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue)
 ### Queue (Linked List Based)
 - Introduction to Queue
 - Insertion Operation
@@ -74,7 +74,7 @@ Data structures lectures for computer science students.
 - Front & Back Operations
 - Time Complexity & Space Complexity
 
-### Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque)
+### :pushpin: Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2006%20-%20Deque)
 ### Deque (Linked List Based)
 - Introduction to Deque
 - Insertion Operation
@@ -91,7 +91,7 @@ Data structures lectures for computer science students.
 - Traverse Operation
 - Time Complexity & Space Complexity
 
-### Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20Built-in%20Linear%20Data%20Structures)
+### :pushpin: Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2007%20-%20Built-in%20Linear%20Data%20Structures)
 - Linear Data Structures in Programming Languages
 - Vector
 - List
@@ -100,8 +100,8 @@ Data structures lectures for computer science students.
 - Deque
 
 ## Part 2: Non-Linear Data Structures `[25H]`
- 
-### Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
+
+### :pushpin: Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
 - Introduction to Binary Tree
 - Traverse Operation
 - BFS vs. DFS for Binary Tree
@@ -109,7 +109,7 @@ Data structures lectures for computer science students.
 - Deletion Operation
 - Time Complexity & Space Complexity
 
-### Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
+### :pushpin: Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2009%20-%20Binary%20Search%20Tree)
 - Introduction to Binary Search Tree
 - Insertion Operation
 - Deletion Operation
@@ -118,7 +118,7 @@ Data structures lectures for computer science students.
 - Time Complexity & Space Complexity
 - Balanced Binary Tree Property
 
-### Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree)
+### :pushpin: Lecture 10 - [Self Balancing Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2010%20-%20Self%20Balancing%20Binary%20Search%20Tree)
 ### Self Balancing Binary Search Tree (AVL Tree)
 - Introduction to AVL Tree
 - Rotation Operation
@@ -137,7 +137,7 @@ Data structures lectures for computer science students.
 - Traverse Operation
 - Time Complexity & Space Complexity
 
-### Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree)
+### :pushpin: Lecture 11 - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2011%20-%20Binary%20Heap%20Tree)
 ### Heap Tree (Array Based)
 - Introduction to Binary Heap Tree
 - Insertion Operation
@@ -152,7 +152,7 @@ Data structures lectures for computer science students.
 - Top Operation
 - Time Complexity & Space Complexity
 
-### Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table)
+### :pushpin: Lecture 12 - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2012%20-%20Hash%20Table)
 ### Hash Table (Static Length)
 - Introduction to Hash Tables
 - Collision Resolution
@@ -167,7 +167,7 @@ Data structures lectures for computer science students.
 - Rehashing Double Hashing
 - Time Complexity & Space Complexity
 
-### Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
+### :pushpin: Lecture 13 - [Graph](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2013%20-%20Graph)
 - Introduction to Graphs
 - Directed vs. Undirected Graph
 - Breadth First Traverse
@@ -176,7 +176,7 @@ Data structures lectures for computer science students.
 - Connected vs. Disconnected Graph
 - Time Complexity & Space Complexity
 
-### Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
+### :pushpin: Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
 - Non-Linear Data Structures in Programming Languages
 - Set
 - Multi-set
