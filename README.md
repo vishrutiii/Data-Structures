@@ -4,7 +4,29 @@ Data structures lectures for computer science students.
 ## Part 1: Linear Data Structures `[25H]`
 
 ### Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
+- Introduction to Data Structures
+- Execution Time Cases
+- Complexity Analysis Examples
+- Recursion
+- Iteration vs. Recursion Examples
+
 ### Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2002%20-%20Array) (Static Length), (Dynamic Length)
+#### Arrays (Static Length)
+- Introduction to Arrays
+- Insertion Operation
+- Deletion Operation
+- Search Operation
+- Traverse Operation
+- Time Complexity & Space Complexity
+
+#### Arrays (Dynamic Length)
+- Introduction to Arrays
+- Insertion Operation
+- Deletion Operation
+- Search Operation
+- Traverse Operation
+- Time Complexity & Space Complexity
+
 ### Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2003%20-%20Linked%20List) (Single Linked List), (Doubly Linked List)
 ### Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2004%20-%20Stack) (Array Based), (Linked List Based)
 ### Lecture 05 - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2005%20-%20Queue) (Array Based), (Linked List Based)
