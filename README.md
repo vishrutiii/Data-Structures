@@ -287,10 +287,9 @@ Data structures lectures for computer science students.
 
 ### Lecture 14 - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2014%20-%20Built-in%20Non-Linear%20Data%20Structures)
 <details>
-<summary>Built-in Non-Linear Data Structures</summary>
+<summary>Non-Linear Data Structures in Programming Languages</summary>
 <br>
 <ul>
-  <li>Non-Linear Data Structures in Programming Languages</li>
   <li>Set</li>
   <li>Multi-set</li>
   <li>Map</li>
