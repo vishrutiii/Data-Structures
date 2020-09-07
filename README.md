@@ -297,12 +297,3 @@ Data structures lectures for computer science students.
   <li>Priority Queue</li>
 </ul>
 </details>
-
-## Part 3: Advanced Data Structures `[25H]`
-
-### Lecture 15 - [Disjoint Set](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2015%20-%20Disjoint%20Set)
-### Lecture 16 - [Trie](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2016%20-%20Trie)
-### Lecture 17 - [Segment Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2017%20-%20Segment%20Tree)
-### Lecture 18 - [Binary Indexed Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2018%20-%20Binary%20Indexed%20Tree) (Fenwick Tree)
-### Lecture 19 - [Treap](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2019%20-%20Treap) (Randomized Binary Search Tree)
-### Lecture 20 - [K-Dimensional Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2020%20-%20K-Dimensional%20Tree)
