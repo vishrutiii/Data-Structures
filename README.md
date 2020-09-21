@@ -1,4 +1,4 @@
-# Data-Structures
+# Data-Structures `60H`
 Data structures lectures for computer science students.
  
 ## Part 1: Linear Data Structures `[30H]`
