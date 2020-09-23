@@ -1,7 +1,7 @@
 # Data-Structures `60H`
 Data structures lectures for computer science students.
  
-## `Part 1`: Linear Data Structures `30H`
+## `Part 1:` Linear Data Structures `30H`
 
 ### Lecture 01 - [Complexity Analysis & Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2001%20-%20Complexity%20Analysis%20%26%20Recursion)
 <details>
@@ -160,7 +160,7 @@ Data structures lectures for computer science students.
 </ul>
 </details>
 
-## `Part 2`: Non-Linear Data Structures `30H`
+## `Part 2:` Non-Linear Data Structures `30H`
 
 ### Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture%2008%20-%20Binary%20Tree)
 <details>
