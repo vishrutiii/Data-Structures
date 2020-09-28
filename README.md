@@ -1,3 +1,5 @@
+<img align="right" width="120" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg">
+
 # Data-Structures `60H`
 Data structures lectures for computer science students.
  
