@@ -2,7 +2,7 @@
 
 # Lecture 07 - Built-in Linear Data Structures
 ## 7.1- Vector
-## 7.1- List
-## 7.1- Stack
-## 7.1- Queue
-## 7.1- Deque
+## 7.2- List
+## 7.3- Stack
+## 7.4- Queue
+## 7.5- Deque
