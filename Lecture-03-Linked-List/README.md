@@ -1,6 +1,6 @@
 <img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg">
 
-## Lecture 03 - Linked List
+# Lecture 03 - Linked List
 
 ## Single Linked List
 ## 3.1- Introduction to Linked Lists
