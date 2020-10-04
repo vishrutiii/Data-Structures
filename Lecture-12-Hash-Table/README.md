@@ -2,7 +2,7 @@
 
 # Lecture 12 - Hash Table
 
-## Hash Table (Static Length)
+# Hash Table (Static Length)
 ## 12.1- Introduction to Hash Tables
 ## 12.2- Collision Resolution
 ## 12.3- Separate Chaining
@@ -10,7 +10,7 @@
 ## 12.5- Double Hashing
 ## 12.6- Time Complexity and Space Complexity
 
-## Hash Table (Dynamic Length)
+# Hash Table (Dynamic Length)
 ## 12.1- Introduction to Rehashing
 ## 12.2- Rehashing Separate Chaining
 ## 12.3- Rehashing Double Hashing
