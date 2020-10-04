@@ -2,14 +2,14 @@
 
 # Lecture 04 - Stack
 
-## Stack (Linked List Based)
+# Stack (Linked List Based)
 ## 4.1- Introduction to Stack
 ## 4.2- Insertion Operation
 ## 4.3- Deletion Operation
 ## 4.4- Top Operation
 ## 4.5- Time Complexity and Space Complexity
 
-## Stack (Array Based)
+# Stack (Array Based)
 ## 4.1- Introduction to Stack
 ## 4.2- Insertion Operation
 ## 4.3- Deletion Operation
