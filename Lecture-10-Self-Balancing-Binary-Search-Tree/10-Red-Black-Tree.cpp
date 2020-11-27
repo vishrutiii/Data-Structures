@@ -399,7 +399,7 @@ void print_tree_structure(node* curr, string indent, bool last) {
         cout << "L----";
         indent += "|  ";
     }
-    cout << curr->data << " (" << (curr->color ? "RED" : "BLACK") << ")" << endl;
+    cout << curr->data << " (" << (curr->color == 0 ? "RED" : "BLACK") << ")" << endl;
     print_tree_structure(curr->left, indent, false);
     print_tree_structure(curr->right, indent, true);
 }
