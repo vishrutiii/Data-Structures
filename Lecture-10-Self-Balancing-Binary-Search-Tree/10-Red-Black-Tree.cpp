@@ -354,8 +354,10 @@ void delete_node(node* curr, int data) {
             node* temp = curr;
             if (curr != root && curr->parent->left == curr)
                 curr->parent->left = NULL;
-            if (curr != root && curr->parent->right == curr)
+            else if (curr != root && curr->parent->right == curr)
                 curr->parent->right = NULL;
+            else
+                root = NULL;
             delete(temp);
         }
         // node with only one child
@@ -405,4 +407,3 @@ int main() {
     cout << "\nLevel Order Traversal of Created Tree\n";
     print_tree_structure(root, "", true);
 }
-
