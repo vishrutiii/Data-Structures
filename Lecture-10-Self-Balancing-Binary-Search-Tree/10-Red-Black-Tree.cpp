@@ -205,7 +205,6 @@ void insert_node(int data) {
         insert_case1(new_node);
         return;
     }
-    //
     node* curr = root;
     while (curr != NULL) {
         // repeat the same definition of insert at left subtrees
