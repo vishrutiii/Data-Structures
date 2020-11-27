@@ -114,6 +114,9 @@ void right_rotate(node* y) {
         return;
     // constract x and T2 pointers (check slides)
     node* x = y->left;
+    y->left = x->right;
+    if (x->right != NULL)
+        x->right->parent = y;
     // replace node y with node x
     if (y->parent == NULL)
         root = x;
@@ -123,9 +126,6 @@ void right_rotate(node* y) {
         y->parent->right = x;
     x->parent = y->parent;
     // perform rotation
-    y->left = x->right;
-    if (x->right != NULL)
-        x->right->parent = y;
     x->right = y;
     y->parent = x;
 }
@@ -137,6 +137,9 @@ void left_rotate(node* x) {
         return;
     // constract y and T2 pointers (check slides)
     node* y = x->right;
+    x->right = y->left;
+    if (y->left != NULL)
+        y->left->parent = x;
     // replace node x with node y
     if (x->parent == NULL)
         root = y;
@@ -146,9 +149,6 @@ void left_rotate(node* x) {
         x->parent->right = y;
     y->parent = x->parent;
     // perform rotation
-    x->right = y->left;
-    if (y->left != NULL)
-        y->left->parent = x;
     y->left = x;
     x->parent = y;
 }
