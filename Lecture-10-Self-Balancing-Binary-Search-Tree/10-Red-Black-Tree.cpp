@@ -5,13 +5,12 @@ using namespace std;
 #define BLACK 1
 
 // Red Black tree node
-struct node 
-{ 
-    int data; 
-    bool color; 
+struct node {
+    int data;
+    bool color;
     node* left;
-	node* right;
-	node* parent; 
+    node* right;
+    node* parent;
 };
 
 // Initialize a global pointer for root
@@ -31,46 +30,46 @@ void delete_case6(node*);
 
 // This function do inorder traversal of the Red Black tree
 void inOrder(node* curr) {
-	// base case we reach a null node
+    // base case we reach a null node
     if (curr == NULL)
-    	return;
-	// repeat the same definition of inorder traversal
-	inOrder(curr->left);
-	cout << curr->data << ' ';
-	inOrder(curr->right);
+        return;
+    // repeat the same definition of inorder traversal
+    inOrder(curr->left);
+    cout << curr->data << ' ';
+    inOrder(curr->right);
 }
 
 // This function do preorder traversal of the Red Black tree
 void preOrder(node* curr) {
-	// base case we reach a null node
+    // base case we reach a null node
     if (curr == NULL)
-    	return;
-	// repeat the same definition of preOrder traversal
-	cout << curr->data << ' ';
-	preOrder(curr->left);
-	preOrder(curr->right);
+        return;
+    // repeat the same definition of preOrder traversal
+    cout << curr->data << ' ';
+    preOrder(curr->left);
+    preOrder(curr->right);
 }
 
 // This function do postorder traversal of the Red Black tree
 void postOrder(node* curr) {
-	// base case we reach a null node
+    // base case we reach a null node
     if (curr == NULL)
-    	return;
-	// repeat the same definition of postorder traversal
-	postOrder(curr->left);
-	postOrder(curr->right);
-	cout << curr->data << ' ';
+        return;
+    // repeat the same definition of postorder traversal
+    postOrder(curr->left);
+    postOrder(curr->right);
+    cout << curr->data << ' ';
 }
 
 // This function searches if the given data in the Red Black tree
 bool search(node* curr, int data) {
-	// base case we reach a null node
-	if (curr == NULL)
-		return false;
-	// check if we find the data at the curr node
-	if (curr->data == data)
-		return true;
-	// repeat the same definition of search at left or right subtrees
+    // base case we reach a null node
+    if (curr == NULL)
+        return false;
+    // check if we find the data at the curr node
+    if (curr->data == data)
+        return true;
+    // repeat the same definition of search at left or right subtrees
     if (data < curr->data)
         return search(curr->left, data);
     else
@@ -79,15 +78,15 @@ bool search(node* curr, int data) {
 
 // This function gets the grandparent of the given node in the Red Black tree
 node* grandparent(node* x) {
-	if (x == NULL || x->parent == NULL)
-		return NULL;
-	return x->parent->parent;
+    if (x == NULL || x->parent == NULL)
+        return NULL;
+    return x->parent->parent;
 }
 
 // This function gets the sibling of the given node in the Red Black tree
 node* sibling(node* x) {
-	if (x == NULL || x->parent == NULL)
-		return NULL;
+    if (x == NULL || x->parent == NULL)
+        return NULL;
     if (x == x->parent->left)
         return x->parent->right;
     else
@@ -96,15 +95,15 @@ node* sibling(node* x) {
 
 // This function gets the uncle of the given node in the Red Black tree
 node* uncle(node* x) {
-	if (x == NULL)
-		return NULL;
+    if (x == NULL)
+        return NULL;
     return sibling(x->parent);
 }
 
 // This function gets the color of the given node in the Red Black tree
-bool node_color(node* x) { 
-	if (x == NULL)
-		return BLACK;
+bool node_color(node* x) {
+    if (x == NULL)
+        return BLACK;
     return x->color;
 }
 
@@ -196,20 +195,20 @@ void insert_case5(node* x) {
 
 // This function inserts a new node with given key in the Red Black tree
 void insert_node(int data) {
-	// create a new node
+    // create a new node
     node* new_node = new node();
-	new_node->data = data;	
-    new_node->color = RED;	
-	// if the tree is empty
+    new_node->data = data;
+    new_node->color = RED;
+    // if the tree is empty
     if (root == NULL) {
         root = new_node;
-		insert_case1(new_node);
-		return;
-	}
-	// 
+        insert_case1(new_node);
+        return;
+    }
+    //
     node* curr = root;
     while (curr != NULL) {
-		// repeat the same definition of insert at left subtrees		
+        // repeat the same definition of insert at left subtrees
         if (data < curr->data) {
             if (curr->left == NULL) {
                 curr->left = new_node;
@@ -217,7 +216,7 @@ void insert_node(int data) {
             }
             curr = curr->left;
         }
-		// repeat the same definition of insert at right subtrees		
+        // repeat the same definition of insert at right subtrees
         else if (data > curr->data) {
             if (curr->right == NULL) {
                 curr->right = new_node;
@@ -225,9 +224,9 @@ void insert_node(int data) {
             }
             curr = curr->right;
         }
-		// duplicate keys are not allowed in the Red Black tree
-		else
-			return;
+        // duplicate keys are not allowed in the Red Black tree
+        else
+            return;
     }
     new_node->parent = curr;
     insert_case1(new_node);
@@ -239,7 +238,7 @@ node* min_node(node* curr) {
     // loop down to find the leftmost leaf
     while (res->left != NULL)
         res = res->left;
-	// return the nearest data node of curr data node 
+    // return the nearest data node of curr data node
     return res;
 }
 
@@ -249,120 +248,120 @@ node* max_node(node* curr) {
     // loop down to find the rightmost leaf
     while (res->right != NULL)
         res = res->right;
-	// return the nearest data node of curr data node 
+    // return the nearest data node of curr data node
     return res;
 }
 
 void delete_case1(node* x) {
-	if (x->parent == NULL)
-		return;
-	delete_case2(x);
+    if (x->parent == NULL)
+        return;
+    delete_case2(x);
 }
 void delete_case2(node* x) {
-	node* s = sibling(x);
-	if (s->color == RED) {
-		x->parent->color = RED;
-		s->color = BLACK;
-		if (x == x->parent->left)
-			left_rotate(x->parent);
-		else
-			right_rotate(x->parent);
-	}
-	delete_case3(x);
+    node* s = sibling(x);
+    if (s->color == RED) {
+        x->parent->color = RED;
+        s->color = BLACK;
+        if (x == x->parent->left)
+            left_rotate(x->parent);
+        else
+            right_rotate(x->parent);
+    }
+    delete_case3(x);
 }
 void delete_case3(node* x) {
-	node* s = sibling(x);
-	if ((x->parent->color == BLACK) && (s->color == BLACK) &&
-		(s->left->color == BLACK) && (s->right->color == BLACK)) {
-		s->color = RED;
-		delete_case1(x->parent);
-	}
-	else
-		delete_case4(x);
+    node* s = sibling(x);
+    if ((x->parent->color == BLACK) && (s->color == BLACK) &&
+        (s->left->color == BLACK) && (s->right->color == BLACK)) {
+        s->color = RED;
+        delete_case1(x->parent);
+    }
+    else
+        delete_case4(x);
 }
 void delete_case4(node* x) {
-	node* s = sibling(x);
-	if ((x->parent->color == RED) && (s->color == BLACK) &&
-		(s->left->color == BLACK) && (s->right->color == BLACK)) {
-		s->color = RED;
-		x->parent->color = BLACK;
-	} 
-	else
-		delete_case5(x);
+    node* s = sibling(x);
+    if ((x->parent->color == RED) && (s->color == BLACK) &&
+        (s->left->color == BLACK) && (s->right->color == BLACK)) {
+        s->color = RED;
+        x->parent->color = BLACK;
+    }
+    else
+        delete_case5(x);
 }
 void delete_case5(node* x) {
-	node* s = sibling(x);
-	if (s->color == BLACK) {
-		if ((x == x->parent->left) && (s->right->color == BLACK) && (s->left->color == RED)) {
-			s->color = RED;
-			s->left->color = BLACK;
-			right_rotate(s);
-		} 
-		else if ((x == x->parent->right) && (s->left->color == BLACK) && (s->right->color == RED)) {
-			s->color = RED;
-			s->right->color = BLACK;
-			left_rotate(s);
-		}
-	}
-	delete_case6(x);
+    node* s = sibling(x);
+    if (s->color == BLACK) {
+        if ((x == x->parent->left) && (s->right->color == BLACK) && (s->left->color == RED)) {
+            s->color = RED;
+            s->left->color = BLACK;
+            right_rotate(s);
+        }
+        else if ((x == x->parent->right) && (s->left->color == BLACK) && (s->right->color == RED)) {
+            s->color = RED;
+            s->right->color = BLACK;
+            left_rotate(s);
+        }
+    }
+    delete_case6(x);
 }
 void delete_case6(node* x) {
-	node* s = sibling(x);
-	s->color = x->parent->color;
-	x->parent->color = BLACK;
-	if (x == x->parent->left) {
-		s->right->color = BLACK;
-		left_rotate(x->parent);
-	} 
-	else {
-		s->left->color = BLACK;
-		right_rotate(x->parent);
-	}
+    node* s = sibling(x);
+    s->color = x->parent->color;
+    x->parent->color = BLACK;
+    if (x == x->parent->left) {
+        s->right->color = BLACK;
+        left_rotate(x->parent);
+    }
+    else {
+        s->left->color = BLACK;
+        right_rotate(x->parent);
+    }
 }
 
 void delete_child(node* x) {
-	if (x == NULL)
-		return;
-	node* child;
-	if (x->right == NULL) 
-		child = x->left;
-	else
-		child = x->right;
-	replace_node(x, child);
-	if (x->color == BLACK) {
-		if (child->color == RED)
-			child->color = BLACK;
-		else
-			delete_case1(child);
-	}
-	delete(x);
+    if (x == NULL)
+        return;
+    node* child;
+    if (x->right == NULL)
+        child = x->left;
+    else
+        child = x->right;
+    replace_node(x, child);
+    if (x->color == BLACK) {
+        if (child->color == RED)
+            child->color = BLACK;
+        else
+            delete_case1(child);
+    }
+    delete(x);
 }
 
 // This function deletes the given data in the Red Black tree if exists
 void delete_node(node* curr, int data) {
-	// base case we reach a null node
+    // base case we reach a null node
     if (curr == NULL)
-    	return;
-	// repeat the same definition of delete at left subtrees
+        return;
+    // repeat the same definition of delete at left subtrees
     if (data < curr->data)
-        delete_node(curr->left, data); 
-	// repeat the same definition of delete at right subtrees
+        delete_node(curr->left, data);
+    // repeat the same definition of delete at right subtrees
     else if (data > curr->data)
-        delete_node(curr->right, data); 
+        delete_node(curr->right, data);
     // if the given data is same as curr's data, then we will delete this node
     else {
         // node with no child
         if (curr->left == NULL && curr->right == NULL) {
             node* temp = curr;
-            if (curr != root && curr->parent->left == curr) 
+            if (curr != root && curr->parent->left == curr)
                 curr->parent->left = NULL;
-            if (curr != root && curr->parent->right == curr) 
+            if (curr != root && curr->parent->right == curr)
                 curr->parent->right = NULL;
-            delete(temp);            
+            delete(temp);
         }
         // node with only one child
         else if (curr->left == NULL || curr->right == NULL) {
-			delete_child(curr);
+            delete_child(curr);
         }
         else {
             // get the inorder successor (smallest in the right subtree)
@@ -375,35 +374,36 @@ void delete_node(node* curr, int data) {
     }
 }
 
-void print_tree_structure(node* curr, string indent, bool last) { 
+void print_tree_structure(node* curr, string indent, bool last) {
     if (curr == NULL)
-		return;
-	cout << indent;
-	if (last) {
-		cout << "R----";
-		indent += "   ";
-	} 
-	else {
-		cout << "L----";
-		indent += "|  ";
-	}
-	cout << curr->data << " (" << (curr->color ? "RED" : "BLACK") << ")" << endl;
-	print_tree_structure(curr->left, indent, false);
-	print_tree_structure(curr->right, indent, true);
-} 
+        return;
+    cout << indent;
+    if (last) {
+        cout << "R----";
+        indent += "   ";
+    }
+    else {
+        cout << "L----";
+        indent += "|  ";
+    }
+    cout << curr->data << " (" << (curr->color ? "RED" : "BLACK") << ")" << endl;
+    print_tree_structure(curr->left, indent, false);
+    print_tree_structure(curr->right, indent, true);
+}
 
-int main() { 
+int main() {
     for (int i=10;i<=100;i+=10)
       insert_node(i);
     for (int i=200;i>100;i-=10)
       insert_node(i);
-    cout << "\nLevel Order Traversal of Created Tree\n"; 
-    print_tree_structure(root, "", true); 
+    cout << "\nLevel Order Traversal of Created Tree\n";
+    print_tree_structure(root, "", true);
     delete_node(root, 130);
     delete_node(root, 120);
     delete_node(root, 200);
     delete_node(root, 190);
     delete_node(root, 180);
-    cout << "\nLevel Order Traversal of Created Tree\n"; 
-    print_tree_structure(root, "", true); 
-} 
+    cout << "\nLevel Order Traversal of Created Tree\n";
+    print_tree_structure(root, "", true);
+}
+
