@@ -107,18 +107,6 @@ bool node_color(node* x) {
     return x->color;
 }
 
-// This function replaces the old node with the new node in the Red Black tree
-void replace_node(node* old_node, node* new_node) {
-    if (old_node->parent == NULL)
-        root = new_node;
-    else if (old_node == old_node->parent->left)
-        old_node->parent->left = new_node;
-    else
-        old_node->parent->right = new_node;
-    if (new_node != NULL)
-        new_node->parent = old_node->parent;
-}
-
 // This function computes right rotate subtree rooted with y
 void right_rotate(node* y) {
     // check if the given node and it's left branch are NULLs
@@ -126,11 +114,18 @@ void right_rotate(node* y) {
         return;
     // constract x and T2 pointers (check slides)
     node* x = y->left;
-    replace_node(y, x);
+    // replace node y with node x
+    if (y->parent == NULL)
+        root = x;
+    else if (y == y->parent->left)
+        y->parent->left = x;
+    else
+        y->parent->right = x;
+    x->parent = y->parent;
+    // perform rotation
     y->left = x->right;
     if (x->right != NULL)
         x->right->parent = y;
-    // perform rotation
     x->right = y;
     y->parent = x;
 }
@@ -142,11 +137,18 @@ void left_rotate(node* x) {
         return;
     // constract y and T2 pointers (check slides)
     node* y = x->right;
-    replace_node(x, y);
+    // replace node x with node y
+    if (x->parent == NULL)
+        root = y;
+    else if (x == x->parent->left)
+        x->parent->left = y;
+    else
+        x->parent->right = y;
+    y->parent = x->parent;
+    // perform rotation
     x->right = y->left;
     if (y->left != NULL)
         y->left->parent = x;
-    // perform rotation
     y->left = x;
     x->parent = y;
 }
@@ -321,12 +323,22 @@ void delete_case6(node* x) {
 void delete_child(node* x) {
     if (x == NULL)
         return;
+    // get the only child of node x
     node* child;
     if (x->right == NULL)
         child = x->left;
     else
         child = x->right;
-    replace_node(x, child);
+    // replace node x with node child
+    if (x->parent == NULL)
+        root = child;
+    else if (x == x->parent->left)
+        x->parent->left = child;
+    else
+        x->parent->right = child;
+    if (child != NULL)
+        child->parent = x->parent;
+    // fix the violation if exists
     if (x->color == BLACK) {
         if (child->color == RED)
             child->color = BLACK;
@@ -354,8 +366,10 @@ void delete_node(node* curr, int data) {
             node* temp = curr;
             if (curr != root && curr->parent->left == curr)
                 curr->parent->left = NULL;
-            if (curr != root && curr->parent->right == curr)
+            else if (curr != root && curr->parent->right == curr)
                 curr->parent->right = NULL;
+            else
+                root = NULL;
             delete(temp);
         }
         // node with only one child
@@ -405,4 +419,3 @@ int main() {
     cout << "\nLevel Order Traversal of Created Tree\n";
     print_tree_structure(root, "", true);
 }
-
