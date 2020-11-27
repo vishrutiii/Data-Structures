@@ -260,7 +260,7 @@ void delete_case1(node* x) {
 }
 void delete_case2(node* x) {
     node* s = sibling(x);
-    if (s->color == RED) {
+    if (node_color(s) == RED) {
         x->parent->color = RED;
         s->color = BLACK;
         if (x == x->parent->left)
@@ -273,7 +273,7 @@ void delete_case2(node* x) {
 void delete_case3(node* x) {
     node* s = sibling(x);
     if ((x->parent->color == BLACK) && (s->color == BLACK) &&
-        (s->left->color == BLACK) && (s->right->color == BLACK)) {
+        (node_color(s->left) == BLACK) && (node_color(s->right) == BLACK)) {
         s->color = RED;
         delete_case1(x->parent);
     }
@@ -283,7 +283,7 @@ void delete_case3(node* x) {
 void delete_case4(node* x) {
     node* s = sibling(x);
     if ((x->parent->color == RED) && (s->color == BLACK) &&
-        (s->left->color == BLACK) && (s->right->color == BLACK)) {
+        (node_color(s->left) == BLACK) && (node_color(s->right) == BLACK)) {
         s->color = RED;
         x->parent->color = BLACK;
     }
@@ -293,12 +293,12 @@ void delete_case4(node* x) {
 void delete_case5(node* x) {
     node* s = sibling(x);
     if (s->color == BLACK) {
-        if ((x == x->parent->left) && (s->right->color == BLACK) && (s->left->color == RED)) {
+        if ((x == x->parent->left) && (node_color(s->right) == BLACK) && (node_color(s->left) == RED)) {
             s->color = RED;
             s->left->color = BLACK;
             right_rotate(s);
         }
-        else if ((x == x->parent->right) && (s->left->color == BLACK) && (s->right->color == RED)) {
+        else if ((x == x->parent->right) && (node_color(s->left) == BLACK) && (node_color(s->right) == RED)) {
             s->color = RED;
             s->right->color = BLACK;
             left_rotate(s);
@@ -339,11 +339,12 @@ void delete_child(node* x) {
     if (child != NULL)
         child->parent = x->parent;
     // fix the violation if exists
-    if (x->color == BLACK) {
-        if (child->color == RED)
+    if (node_color(x) == BLACK) {
+        if (node_color(child) == RED)
             child->color = BLACK;
-        else
-            delete_case1(child);
+        else {
+            delete_case1(x);
+        }
     }
     delete(x);
 }
@@ -361,19 +362,7 @@ void delete_node(node* curr, int data) {
         delete_node(curr->right, data);
     // if the given data is same as curr's data, then we will delete this node
     else {
-        // node with no child
-        if (curr->left == NULL && curr->right == NULL) {
-            node* temp = curr;
-            if (curr != root && curr->parent->left == curr)
-                curr->parent->left = NULL;
-            else if (curr != root && curr->parent->right == curr)
-                curr->parent->right = NULL;
-            else
-                root = NULL;
-            delete(temp);
-        }
-        // node with only one child
-        else if (curr->left == NULL || curr->right == NULL) {
+        if (curr->left == NULL || curr->right == NULL) {
             delete_child(curr);
         }
         else {
@@ -399,7 +388,7 @@ void print_tree_structure(node* curr, string indent, bool last) {
         cout << "L----";
         indent += "|  ";
     }
-    cout << curr->data << " (" << (curr->color ? "RED" : "BLACK") << ")" << endl;
+    cout << curr->data << " (" << (curr->color==0 ? "RED" : "BLACK") << ")" << endl;
     print_tree_structure(curr->left, indent, false);
     print_tree_structure(curr->right, indent, true);
 }
@@ -411,11 +400,12 @@ int main() {
       insert_node(i);
     cout << "\nLevel Order Traversal of Created Tree\n";
     print_tree_structure(root, "", true);
-    delete_node(root, 130);
+    delete_node(root, 70);
     delete_node(root, 120);
     delete_node(root, 200);
     delete_node(root, 190);
     delete_node(root, 180);
+    delete_node(root, 40);
     cout << "\nLevel Order Traversal of Created Tree\n";
     print_tree_structure(root, "", true);
 }
