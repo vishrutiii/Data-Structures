@@ -204,7 +204,7 @@ void insert_node(int data) {
     // if the tree is empty
     if (root == NULL) {
         root = new_node;
-        insert_case1(new_node);
+        root->color = BLACK;
         return;
     }
     node* curr = root;
