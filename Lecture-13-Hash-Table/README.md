@@ -3,15 +3,21 @@
 # Lecture 12 - Hash Table
 
 # Hash Table (Static Length)
-## 13.1- Introduction to Hash Tables
-## 13.2- Collision Resolution
-## 13.3- Separate Chaining
-## 13.4- Open Addressing
-## 13.5- Double Hashing
-## 13.6- Time Complexity and Space Complexity
+
+## Table of Content
+
+- ***Introduction to Hash Tables***
+- ***Collision Resolution***
+- ***Separate Chaining***
+- ***Open Addressing***
+- ***Double Hashing***
+- ***Time Complexity and Space Complexity***
 
 # Hash Table (Dynamic Length)
-## 13.1- Introduction to Rehashing
-## 13.2- Rehashing Separate Chaining
-## 13.3- Rehashing Double Hashing
-## 13.4- Time Complexity and Space Complexity
+
+## Table of Content
+
+- ***Introduction to Rehashing***
+- ***Rehashing Separate Chaining***
+- ***Rehashing Double Hashing***
+- ***Time Complexity and Space Complexity***
