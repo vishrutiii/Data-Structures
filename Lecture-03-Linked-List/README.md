@@ -3,17 +3,24 @@
 # Lecture 03 - Linked List
 
 # Single Linked List
-## 3.1- Introduction to Linked Lists
-## 3.2- Insertion Operation
-## 3.3- Deletion Operation
-## 3.4- Search Operation
-## 3.5- Traverse Operation
-## 3.6- Time Complexity and Space Complexity
+
+
+## Table of Content
+
+- ***Introduction to Linked Lists***
+- ***Insertion Operation***
+- ***Deletion Operation***
+- ***Search Operation***
+- ***Traverse Operation***
+- ***Time Complexity and Space Complexity***
 
 # Doubly Linked List
-## 3.1- Introduction to Linked Lists
-## 3.2- Insertion Operation
-## 3.3- Deletion Operation
-## 3.4- Search Operation
-## 3.5- Traverse Operation
-## 3.6- Time Complexity and Space Complexity
+
+## Table of Content
+
+- ***Introduction to Linked Lists***
+- ***Insertion Operation***
+- ***Deletion Operation***
+- ***Search Operation***
+- ***Traverse Operation***
+- ***Time Complexity and Space Complexity***
