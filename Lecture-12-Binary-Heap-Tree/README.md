@@ -2,7 +2,7 @@
 
 # Lecture 12 - Binary Heap Tree
 
-# Heap Tree (Array Based)
+# Binary Heap Tree (Array Based)
 
 ## Table of Content
 
@@ -12,7 +12,7 @@
 - ***Top Operation***
 - ***Time Complexity and Space Complexity***
 
-# Heap Tree (Tree Based)
+# Binary Heap Tree (Tree Based)
 
 ## Table of Content
 
