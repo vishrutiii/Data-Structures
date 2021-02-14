@@ -2,12 +2,37 @@
 
 # Lecture 10 - Self Balancing BST (AVL Tree)
 
-## Table of Content
+<details>
+	<summary>10.1- Introduction to AVL Tree</summary>
 
-- ***Introduction to AVL Tree***
-- ***Rotation Operation***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Search Operation***
-- ***Traverse Operation***
-- ***Time Complexity and Space Complexity***
+</details>
+
+<details>
+	<summary>10.2- Rotation Operation</summary>
+
+</details>
+
+<details>
+	<summary>10.3- Insertion Operation</summary>
+
+</details>
+
+<details>
+	<summary>10.4- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>10.5- Search Operation</summary>
+
+</details>
+
+<details>
+	<summary>10.6- Traverse Operation</summary>
+
+</details>
+
+<details>
+	<summary>10.7- Time Complexity and Space Complexity</summary>
+
+</details>

@@ -2,12 +2,37 @@
 
 # Lecture 09 - Binary Search Tree
 
-## Table of Content
+<details>
+	<summary>09.1- Introduction to Binary Search Tree</summary>
 
-- ***Introduction to Binary Search Tree***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Search Operation***
-- ***Traverse Operation***
-- ***Time Complexity and Space Complexity***
-- ***Balanced Binary Tree Property***
+</details>
+
+<details>
+	<summary>09.2- Insertion Operation</summary>
+
+</details>
+
+<details>
+	<summary>09.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>09.4- Search Operation</summary>
+
+</details>
+
+<details>
+	<summary>09.5- Traverse Operation</summary>
+
+</details>
+
+<details>
+	<summary>09.6- Time Complexity and Space Complexity</summary>
+
+</details>
+
+<details>
+	<summary>09.7- Balanced Binary Tree Property</summary>
+
+</details>

@@ -2,22 +2,56 @@
 
 # Lecture 05 - Queue
 
-# Queue (Linked List Based)
+## Queue (Linked List Based)
 
-## Table of Content
+<details>
+	<summary>05.1- Introduction to Queue</summary>
 
-- ***Introduction to Queue***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Front and Back Operations***
-- ***Time Complexity and Space Complexity***
+</details>
 
-# Queue (Array Based)
+<details>
+	<summary>05.2- Insertion Operation</summary>
 
-## Table of Content
+</details>
 
-- ***Introduction to Queue***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Front and Back Operations***
-- ***Time Complexity and Space Complexity***
+<details>
+	<summary>05.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>05.4- Front and Back Operation</summary>
+
+</details>
+
+<details>
+	<summary>05.5- Time Complexity and Space Complexity</summary>
+
+</details>
+
+## Queue (Array Based)
+
+<details>
+	<summary>05.1- Introduction to Queue</summary>
+
+</details>
+
+<details>
+	<summary>05.2- Insertion Operation</summary>
+
+</details>
+
+<details>
+	<summary>05.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>05.4- Front and Back Operation</summary>
+
+</details>
+
+<details>
+	<summary>05.5- Time Complexity and Space Complexity</summary>
+
+</details>

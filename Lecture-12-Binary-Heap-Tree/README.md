@@ -2,22 +2,56 @@
 
 # Lecture 12 - Binary Heap Tree
 
-# Binary Heap Tree (Array Based)
+## Binary Heap Tree (Array Based)
 
-## Table of Content
+<details>
+	<summary>12.1- Introduction to Binary Heap Tree</summary>
 
-- ***Introduction to Binary Heap Tree***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Top Operation***
-- ***Time Complexity and Space Complexity***
+</details>
 
-# Binary Heap Tree (Tree Based)
+<details>
+	<summary>12.2- Insertion Operation</summary>
 
-## Table of Content
+</details>
 
-- ***Introduction to Binary Heap Tree***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Top Operation***
-- ***Time Complexity and Space Complexity***
+<details>
+	<summary>12.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>12.4- Top Operation</summary>
+
+</details>
+
+<details>
+	<summary>12.5- Time Complexity and Space Complexity</summary>
+
+</details>
+
+## Binary Heap Tree (Tree Based)
+
+<details>
+	<summary>12.1- Introduction to Binary Heap Tree</summary>
+
+</details>
+
+<details>
+	<summary>12.2- Insertion Operation</summary>
+
+</details>
+
+<details>
+	<summary>12.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>12.4- Top Operation</summary>
+
+</details>
+
+<details>
+	<summary>12.5- Time Complexity and Space Complexity</summary>
+
+</details>

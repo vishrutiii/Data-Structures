@@ -2,25 +2,66 @@
 
 # Lecture 02 - Array 
 
-# Static Array
+## Static Array
 
-## Table of Content
+<details>
+	<summary>02.1- Introduction to Arrays</summary>
 
-- ***Introduction to Arrays***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Search Operation***
-- ***Traverse Operation***
-- ***Time Complexity and Space Complexity***
+</details>
 
-# Dynamic Array
+<details>
+	<summary>02.2- Insertion Operation</summary>
 
+</details>
 
-## Table of Content
+<details>
+	<summary>02.3- Deletion Operation</summary>
 
-- ***Introduction to Arrays***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Search Operation***
-- ***Traverse Operation***
-- ***Time Complexity and Space Complexity***
+</details>
+
+<details>
+	<summary>02.4- Search Operation</summary>
+
+</details>
+
+<details>
+	<summary>02.5- Traverse Operation</summary>
+
+</details>
+
+<details>
+	<summary>02.6- Time Complexity and Space Complexity</summary>
+
+</details>
+
+## Dynamic Array
+
+<details>
+	<summary>02.1- Introduction to Arrays</summary>
+
+</details>
+
+<details>
+	<summary>02.2- Insertion Operation</summary>
+
+</details>
+
+<details>
+	<summary>02.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>02.4- Search Operation</summary>
+
+</details>
+
+<details>
+	<summary>02.5- Traverse Operation</summary>
+
+</details>
+
+<details>
+	<summary>02.6- Time Complexity and Space Complexity</summary>
+
+</details>

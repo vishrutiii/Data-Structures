@@ -2,24 +2,66 @@
 
 # Lecture 06 - Deque
 
-# Deque (Linked List Based)
+## Deque (Linked List Based)
 
-## Table of Content
+<details>
+	<summary>06.1- Introduction to Deque</summary>
 
-- ***Introduction to Deque***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Front and Back Operations***
-- ***Traverse Operation***
-- ***Time Complexity and Space Complexity***
+</details>
 
-# Deque (Array Based)
+<details>
+	<summary>06.2- Insertion Operation</summary>
 
-## Table of Content
+</details>
 
-- ***Introduction to Deque***
-- ***Insertion Operation***
-- ***Deletion Operation***
-- ***Front and Back Operations***
-- ***Traverse Operation***
-- ***Time Complexity and Space Complexity***
+<details>
+	<summary>06.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>06.4- Front and Back Operation</summary>
+
+</details>
+
+<details>
+	<summary>06.5- Traverse Operation</summary>
+
+</details>
+
+<details>
+	<summary>06.6- Time Complexity and Space Complexity</summary>
+
+</details>
+
+## Deque (Array Based)
+
+<details>
+	<summary>06.1- Introduction to Deque</summary>
+
+</details>
+
+<details>
+	<summary>06.2- Insertion Operation</summary>
+
+</details>
+
+<details>
+	<summary>06.3- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>06.4- Front and Back Operation</summary>
+
+</details>
+
+<details>
+	<summary>06.5- Traverse Operation</summary>
+
+</details>
+
+<details>
+	<summary>06.6- Time Complexity and Space Complexity</summary>
+
+</details>

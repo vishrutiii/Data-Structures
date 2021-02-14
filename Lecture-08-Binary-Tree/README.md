@@ -2,11 +2,32 @@
 
 # Lecture 08 - Binary Tree
 
-## Table of Content
+<details>
+	<summary>08.1- Introduction to Binary Tree</summary>
 
-- ***Introduction to Binary Tree***
-- ***Traverse Operation***
-- ***BFS vs. DFS for Binary Tree***
-- ***Search Operation***
-- ***Deletion Operation***
-- ***Time Complexity and Space Complexity***
+</details>
+
+<details>
+	<summary>08.2- Traverse Operation</summary>
+
+</details>
+
+<details>
+	<summary>08.3- BFS vs. DFS for Binary Tree</summary>
+
+</details>
+
+<details>
+	<summary>08.4- Search Operation</summary>
+
+</details>
+
+<details>
+	<summary>08.5- Deletion Operation</summary>
+
+</details>
+
+<details>
+	<summary>08.6- Time Complexity and Space Complexity</summary>
+
+</details>

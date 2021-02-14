@@ -2,12 +2,37 @@
 
 # Lecture 14 - Built-in Non-Linear Data Structures
 
-## Table of Content
+<details>
+	<summary>14.1- Set</summary>
 
-- ***Set***
-- ***Multi-set***
-- ***Unordered-set***
-- ***Map***
-- ***Multi-map***
-- ***Unordered-map***
-- ***Priority Queue***
+</details>
+
+<details>
+	<summary>14.2- Multi-set</summary>
+
+</details>
+
+<details>
+	<summary>14.3- Unordered-set</summary>
+
+</details>
+
+<details>
+	<summary>14.4- Map</summary>
+
+</details>
+
+<details>
+	<summary>14.5- Multi-map</summary>
+
+</details>
+
+<details>
+	<summary>14.6- Unordered-map</summary>
+
+</details>
+
+<details>
+	<summary>14.7- Priority Queue</summary>
+
+</details>
