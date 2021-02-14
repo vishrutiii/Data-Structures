@@ -5,7 +5,7 @@ Data structures lectures for computer science students.
  
 ## `Part 1:` Linear Data Structures `30H`
 
-## Lecture 01 - [Complexity Analysis and Recursion](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-01-Complexity-Analysis-and-Recursion)
+## Lecture 01 - [Complexity Analysis](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-01-Complexity-Analysis)
 ## Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-02-Array)
 ## Lecture 03 - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-03-Linked-List)
 ## Lecture 04 - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-04-Stack)
