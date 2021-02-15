@@ -1,9 +1,9 @@
 <img align="right" width="120" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg">
 
-# Data-Structures `60H`
+# Data-Structures `80H`
 Data structures lectures for computer science students.
  
-## `Part 1:` Linear Data Structures `30H`
+## `Part 1:` Linear Data Structures `40H`
 
 ## Lecture 01 - [Complexity Analysis](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-01-Complexity-Analysis)
 ## Lecture 02 - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-02-Array)
@@ -13,7 +13,7 @@ Data structures lectures for computer science students.
 ## Lecture 06 - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-06-Deque)
 ## Lecture 07 - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-07-Built-in-Linear-Data-Structures)
 
-## `Part 2:` Non-Linear Data Structures `30H`
+## `Part 2:` Non-Linear Data Structures `40H`
 
 ## Lecture 08 - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-08-Binary-Tree)
 ## Lecture 09 - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-09-Binary-Search-Tree)
