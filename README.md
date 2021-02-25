@@ -23,8 +23,8 @@ Data structures lectures for computer science students.
 
 ### `Lecture 08` - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-08-Binary-Tree)
 ### `Lecture 09` - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-09-Binary-Search-Tree)
-### `Lecture 10` - [Self Balancing BST (AVL Tree)](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-10-Self-Balancing-BST-AVL-Tree)
-### `Lecture 11` - [Self Balancing BST (Red Black Tree)](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-11-Self-Balancing-BST-Red-Black-Tree)
+### `Lecture 10` - [AVL Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-10-AVL-Tree)
+### `Lecture 11` - [Red Black Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-11-Red-Black-Tree)
 ### `Lecture 12` - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-12-Binary-Heap-Tree)
 ### `Lecture 13` - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-13-Hash-Table)
 ### `Lecture 14` - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-14-Built-in-Non-Linear-Data-Structures)
