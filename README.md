@@ -9,12 +9,81 @@ Data structures lectures for computer science students.
 ## `Part 1` Linear Data Structures `40 hrs`
 
 ### `Lecture 01` - [Complexity Analysis](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 02` - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 03` - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 04` - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 05` - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 06` - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 07` - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
 
 <img align="right" width="150" height="150" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
 <br>
@@ -22,12 +91,81 @@ Data structures lectures for computer science students.
 ## `Part 2` Non-Linear Data Structures `40 hrs`
 
 ### `Lecture 08` - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 09` - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 10` - [AVL Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 11` - [Red Black Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 12` - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 13` - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
+
 ### `Lecture 14` - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+<details>
+  <summary>Agenda</summary><br>
+
+  - 
+  - 
+  - 
+  - 
+  - 
+</details>
 
 <img align="right" width="120" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice2.jpg">
 <br>
