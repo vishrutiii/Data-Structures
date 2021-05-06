@@ -1,38 +1,38 @@
 <img align="right" width="120" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg">
 
-# Data-Structures `80H`
+# Data-Structures
 Data structures lectures for computer science students.
 
-<img align="right" width="160" height="160" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
+<img align="right" width="150" height="150" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
 <br>
 
-## `Part 1` Linear Data Structures `40H`
+## `Part 1` Linear Data Structures `40 hrs`
 
-### `Lecture 01` - [Complexity Analysis](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-01-Complexity-Analysis)
-### `Lecture 02` - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-02-Array)
-### `Lecture 03` - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-03-Linked-List)
-### `Lecture 04` - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-04-Stack)
-### `Lecture 05` - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-05-Queue)
-### `Lecture 06` - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-06-Deque)
-### `Lecture 07` - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-07-Built-in-Linear-Data-Structures)
+### `Lecture 01` - [Complexity Analysis](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 02` - [Array](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 03` - [Linked List](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 04` - [Stack](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 05` - [Queue](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 06` - [Deque](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 07` - [Built-in Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
 
-<img align="right" width="160" height="160" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
+<img align="right" width="150" height="150" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
 <br>
 
-## `Part 2` Non-Linear Data Structures `40H`
+## `Part 2` Non-Linear Data Structures `40 hrs`
 
-### `Lecture 08` - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-08-Binary-Tree)
-### `Lecture 09` - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-09-Binary-Search-Tree)
-### `Lecture 10` - [AVL Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-10-AVL-Tree)
-### `Lecture 11` - [Red Black Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-11-Red-Black-Tree)
-### `Lecture 12` - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-12-Binary-Heap-Tree)
-### `Lecture 13` - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-13-Hash-Table)
-### `Lecture 14` - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lecture-14-Built-in-Non-Linear-Data-Structures)
+### `Lecture 08` - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 09` - [Binary Search Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 10` - [AVL Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 11` - [Red Black Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 12` - [Binary Heap Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 13` - [Hash Table](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
+### `Lecture 14` - [Built-in Non-Linear Data Structures](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
 
 <img align="right" width="120" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice2.jpg">
 <br>
 
-## `Assignments` `50H`
+## `Assignments` `5 hrs`/`Assignment`
 
 ### `Assignment 01` - 
 ### `Assignment 02` - 
@@ -45,21 +45,20 @@ Data structures lectures for computer science students.
 ### `Assignment 09` - 
 ### `Assignment 10` - 
 
-<img align="right" width="230" height="200" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/educational-projects.jpg">
+<img align="right" width="150" height="150" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/educational-projects.jpg">
 <br>
 
-## `Educational-Projects` `100H`
+## `Educational-Projects` `10 hrs`/`Project`
 
-### `Project 01` -
-### `Project 02` -
-### `Project 03` -
-### `Project 04` -
-### `Project 05` -
-### `Project 06` -
-### `Project 07` -
-### `Project 08` -
-### `Project 09` -
-### `Project 10` -
+|`Project 01` | `Project 02` | `Project 03` | `Project 04` |
+|:----:|:----:|:----:|:----:|
+| | | | |
+| | | | |
+
+|`Project 05` | `Project 06` | `Project 07` | `Project 08` |
+|:----:|:----:|:----:|:----:|
+| | | | |
+| | | | |
 
 <br>
 <img align="right" width="80" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/textbooks.jpg">
