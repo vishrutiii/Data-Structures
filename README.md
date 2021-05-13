@@ -6,7 +6,7 @@ Data structures lectures for computer science students.
 <img align="right" width="150" height="150" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
 <br>
 
-## `Part 1` Linear Data Structures `40 hrs`
+## `Part 1` Linear Data Structures `35 hrs`
 
 ### `Lecture 01` - [Complexity Analysis](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
 <details>
@@ -88,7 +88,7 @@ Data structures lectures for computer science students.
 <img align="right" width="150" height="150" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
 <br>
 
-## `Part 2` Non-Linear Data Structures `40 hrs`
+## `Part 2` Non-Linear Data Structures `35 hrs`
 
 ### `Lecture 08` - [Binary Tree](https://github.com/cs-MohamedAyman/Data-Structures/tree/master/Lectures/README.md)
 <details>
