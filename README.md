@@ -5,7 +5,7 @@ Data structures lectures for computer science students.
 <br>
 <br>
 
-## `Part 1` Linear Data Structures `35 hrs`
+## `Part 1` Linear Data Structures
 
 <img align="right" width="160" height="160" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
 
@@ -90,7 +90,7 @@ Data structures lectures for computer science students.
 <br>
 <br>
 
-## `Part 2` Non-Linear Data Structures `35 hrs`
+## `Part 2` Non-Linear Data Structures
 
 <img align="right" width="160" height="160" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice1.jpg">
 
@@ -175,7 +175,7 @@ Data structures lectures for computer science students.
 <br>
 <br>
 
-## `Assignments` `5 hrs`/`Assignment`
+## `Assignments` `10 hrs`/`Assignment`
 
 <img align="right" width="120" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/practice2.jpg">
 
